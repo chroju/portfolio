@@ -50,16 +50,25 @@ const htmlTemplate = `
 <html lang="ja">
 <head>
 	<meta charset="UTF-8">
+	<script src="https://kit.fontawesome.com/215264fa68.js"></script>
 	<title>chroju</title>
 </head>
 <body>
-    <h1>chroju</h1>
+	<h1>chroju</h1>
+	<img src="https://secure.gravatar.com/avatar/542bf1e833425f6ab7bc7bd7238a4792?s=250" alt="chroju" />
+	<a href="https://github.com/chroju"><i class="fas fa-github-alt"></i></a>
+	<a href="https://twitter.com/chroju"><i class="fas fa-twitter"></i></a>
+	<a href="https://www.instagrafa-instagramm.com/chroju"><i class="fas fa-instagram"></i></a>
+	<a href="https://speakerdeck.com/chroju"><i class="fas fa-speaker-deck"></i></a>
+
     <h2>Who</h2>
     <dl>
         <dt>Location</dt>
             <dd>Tokyo, Japan</dd>
         <dt>Skills</dt>
             <dd>AWS / Terraform / VMware / Go / Python / bash ... etc</dd>
+        <dt>Contact</dt>
+            <dd>chor.chroju at gmail.com</dd>
     </dl>
 
     <h2>Experience</h2>
