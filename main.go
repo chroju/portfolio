@@ -17,7 +17,7 @@ func handler(request events.APIGatewayProxyRequest) (*events.APIGatewayProxyResp
 	feed, _ := fp.ParseURL("https://chroju.github.io/atom.xml")
 	items := feed.Items
 
-	tmpl := template.Must(template.ParseFiles("test.html"))
+	tmpl := template.Must(template.New("test.html").Parse(htmlTemplate))
 	buf := new(bytes.Buffer)
 	w := io.Writer(buf)
 
@@ -39,3 +39,17 @@ func handler(request events.APIGatewayProxyRequest) (*events.APIGatewayProxyResp
 func main() {
 	lambda.Start(handler)
 }
+
+const htmlTemplate = `
+{{define "base"}}
+<!doctype html>
+<html lang="ja">
+<head>
+	<meta charset="UTF-8">
+	<title>test</title>
+</head>
+<body>
+    <h1>{{.Title}}</h1>
+</body>
+{{end}}
+`
