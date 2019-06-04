@@ -2,8 +2,7 @@
     command = "make build"
     functios = "./functions"
 
-[[headers]]
-  for = "/*.woff"
-  [headers.values]
-    Access-Control-Allow-Origin = "*"
-    Content-Type = "application/font-woff"
+[[redirects]]
+    from = "/"
+    to = "/.netlify/functions/profile"
+    status = 200
