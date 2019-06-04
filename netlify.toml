@@ -1,3 +1,9 @@
 [build]
     command = "make build"
-    functios = "functions"
+    functios = "./functions"
+
+[[headers]]
+  for = "/*.woff"
+  [headers.values]
+    Access-Control-Allow-Origin = "*"
+    Content-Type = "application/font-woff"

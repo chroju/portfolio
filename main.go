@@ -56,10 +56,10 @@ const htmlTemplate = `
 <body>
 	<h1>chroju</h1>
 	<img src="https://secure.gravatar.com/avatar/542bf1e833425f6ab7bc7bd7238a4792?s=250" alt="chroju" />
-	<a href="https://github.com/chroju"><i class="fas fa-github-alt"></i></a>
-	<a href="https://twitter.com/chroju"><i class="fas fa-twitter"></i></a>
-	<a href="https://www.instagrafa-instagramm.com/chroju"><i class="fas fa-instagram"></i></a>
-	<a href="https://speakerdeck.com/chroju"><i class="fas fa-speaker-deck"></i></a>
+	<a href="https://github.com/chroju"><i class="fab fa-github-alt"></i></a>
+	<a href="https://twitter.com/chroju"><i class="fab fa-twitter"></i></a>
+	<a href="https://www.instagrafa-instagramm.com/chroju"><i class="fab fa-instagram"></i></a>
+	<a href="https://speakerdeck.com/chroju"><i class="fab fa-speaker-deck"></i></a>
 
     <h2>Who</h2>
     <dl>
@@ -73,7 +73,7 @@ const htmlTemplate = `
 
     <h2>Experience</h2>
     <dl>
-        <dt>TIS</dt>
+        <dt>TIS Inc.</dt>
             <dd>System Engineer</dd>
             <dd>2011 - 2015</dd>
         <dt>A certain company</dt>
