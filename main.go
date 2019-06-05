@@ -24,10 +24,10 @@ func handler(request events.APIGatewayProxyRequest) (*events.APIGatewayProxyResp
 	w := io.Writer(buf)
 
 	err := tmpl.ExecuteTemplate(w, "base", struct {
-		GitHubIOEntries []*gofeed.Item
+		GitHubIOEntries   []*gofeed.Item
 		HatenaBlogEntries []*gofeed.Item
 	}{
-		GitHubIOEntries: ghitems,
+		GitHubIOEntries:   ghitems,
 		HatenaBlogEntries: hbitems,
 	})
 	if err != nil {
@@ -69,7 +69,7 @@ const htmlTemplate = `
         <dt>Location</dt>
             <dd>Tokyo, Japan</dd>
         <dt>Skills</dt>
-            <dd>Automation / Practical Monitoring / Infrastructure as Code / Documantation</dd>
+            <dd>Automation / Practical Monitoring / Infrastructure as Code / Documentation</dd>
         <dt>Techs</dt>
             <dd>AWS / Terraform / VMware / Go / Python / bash ... etc</dd>
         <dt>Contact</dt>
