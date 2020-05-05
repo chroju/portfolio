@@ -71,17 +71,20 @@ const htmlTemplate = `
         <dt>Skills</dt>
             <dd>Automation / Practical Monitoring / Infrastructure as Code / Documentation</dd>
         <dt>Techs</dt>
-            <dd>AWS / Terraform / VMware / Go / Python / bash ... etc</dd>
+            <dd>AWS / Terraform / Kubernetes / VMware / Go / Python / bash ... etc</dd>
         <dt>Contact</dt>
             <dd>chor.chroju at gmail.com</dd>
     </dl>
 
     <h2>Experience</h2>
     <dl>
+        <dt>GLOBIS Corporation</dt>
+            <dd>Site Reliability Engineer</dd>
+            <dd>Apr 2020 - current</dd>
         <dt>Freelancer</dt>
             <dd>Site Reliability Engineer</dd>
-            <dd>Jun 2019 -</dd>
-        <dt>A certain company</dt>
+            <dd>Jun 2019 - Mar 2020</dd>
+        <dt>Quants Research Inc.</dt>
             <dd>Web Operation Engineer</dd>
             <dd>Jun 2015 - May 2019</dd>
         <dt>TIS Inc.</dt>
