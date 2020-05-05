@@ -2,8 +2,6 @@ import React from 'react';
 import axios from 'axios';
 import xml2js from 'xml2js';
 
-const rssURL = "https://chroju.github.io/atom.xml"
-
 class Blogs extends React.Component {
   constructor(props) {
     super(props);
@@ -12,6 +10,7 @@ class Blogs extends React.Component {
     }
   }
   componentDidMount() {
+    const rssURL = this.props.rssURL;
     axios.get(rssURL)
       .then((res) => {
         for (let i = 0; i < 3; i++) {
@@ -27,6 +26,9 @@ class Blogs extends React.Component {
   }
   render() {
     var links = [];
+    if (this.state.entries.length == 0) {
+      links.push(<p>loading ...</p>);
+    }
     for (const i of this.state.entries) {
       links.push(<li><a href="{i.url}">{i.title}</a></li>);
     }

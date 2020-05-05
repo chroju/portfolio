@@ -6,9 +6,15 @@ import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Blogs />
+    <Blogs rssURL="https://chroju.github.io/atom.xml" />
   </React.StrictMode>,
   document.getElementById('techblog')
+);
+ReactDOM.render(
+  <React.StrictMode>
+    <Blogs rssURL="https://chroju.hatenablog.jp/rss" />
+  </React.StrictMode>,
+  document.getElementById('hobbyblog')
 );
 
 // If you want your app to work offline and load faster, you can change
