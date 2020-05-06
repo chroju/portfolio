@@ -1,6 +1,6 @@
 portfolio
 ========
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/f5ab2032-f262-4823-9bc5-223a5ad7ac51/deploy-status)](https://app.netlify.com/sites/chroju-profile/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/4e5bfa15-f031-4711-9b3c-8dbaab4ddeb8/deploy-status)](https://app.netlify.com/sites/chroju-dev/deploys)
 
-Deployed to https://chroju.dev with Netlify Functions.
+Deployed to https://chroju.dev with Netlify.
