@@ -30,7 +30,7 @@ class Blogs extends React.Component {
       links.push(<p>loading ...</p>);
     }
     for (const i of this.state.entries) {
-      links.push(<li><a href="{i.url}">{i.title}</a></li>);
+      links.push(<li><a href={i.url}>{i.title}</a></li>);
     }
     return (links);
   }
