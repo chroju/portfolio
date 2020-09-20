@@ -26,7 +26,7 @@ class Blogs extends React.Component {
   }
   render() {
     var links = [];
-    if (this.state.entries.length == 0) {
+    if (this.state.entries.length === 0) {
       links.push(<p>loading ...</p>);
     }
     for (const i of this.state.entries) {
